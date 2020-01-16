@@ -114,3 +114,6 @@ clean:
 	rm -f $(OBJECTS)
 
 
+install: ${EXEC}
+	install -d      ${DESTDIR}/usr/bin
+	install ${EXEC} ${DESTDIR}/usr/bin

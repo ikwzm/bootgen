@@ -1,0 +1,12 @@
+Source: bootgen
+Section: utils
+Priority: optional
+Homepage: <https://github.com/Xilinx/bootgen>
+Maintainer: ikwzm <ichiro_k@ca2.so-net.ne.jp>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), quilt, dh-exec, libssl-dev
+
+Package: bootgen
+Architecture: any
+Depends: ${misc:Depends}
+Description: Bootgen for Xilinx Zynq and ZU+SoCs
